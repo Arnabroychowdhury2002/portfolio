@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/27a23aa3d4.js" crossorigin="anonymous"></script>
+	<style>
+        .full-text {
+            display: none;
+        }
+
+        .btn {
+           
+
+			display: inline-block;
+	padding: 1rem 2.5rem;
+	background: var(--main-color);
+	border-radius: 4rem;
+	box-shadow: 0 0 1rem var(--main-color);
+	font-size: 1.6rem;
+	color: var(--second-bg-color);
+	letter-spacing: .1rem;
+	font-weight: 600;
+	transition: .5s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--main-color);
+        }
+
+		.role {
+            
+            font-weight: bold;
+        }
+
+	
+       
+    </style>
+</head>
+<body>
+
+	<!--header-->
+	<header class="header">
+		
+
+		
+		<a href="#" class="logo">Portfolio</a>
+<input type="checkbox" name="" id="menu-icon">
+		<label for="menu-icon" class="fas fa-bars"></label>
+		<nav class="navbar">
+			<a href="#home" class="active">Home</a>
+			<a href="#about">About</a>
+			<a href="#services">Skills</a>
+			<a href="#portfolio">Projects</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+
+
+
+	<section class="home " id="home">
+		<div class="home-content">
+			<h3>
+				Hello, It's Me</h3>
+				<h1>Arnab Roychowdhury</h1>
+				<h3>And I'm a <span class="role highlight">Frontend Developer</span></h3>
+				
+				<div class="social-media">
+					<a href="https://www.facebook.com/profile.php?id=100026935939379"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://github.com/Arnabroychowdhury2002"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.instagram.com/chowdhury_arnabroy/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/arnab-roy-chowdhury-6170a6248/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="#" class="btn" id="downloadBtn">Download CV</a>
+	
+		</div>
+		<div class="home-img">
+			<img src="arc1.jpg" alt="">
+		</div>
+		
+	</section>
+
+
+
+	<section class="about" id="about">
+        <div class="about-img">
+            <img src="arc2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <br>
+            <br>
+            <p class="short-text">
+                I am Arnab Roy Chowdhury, a B.Tech student at the Bengal Institute of Technology, is  dedicated and ambitious full-stack web developer specializing in the MERN stack.
+            </p>
+            <p class="full-text">
+                My journey into web development began in his first year of college, driven by a fascination with creating dynamic and engaging web applications. With proficiency in MongoDB, Express.js, React, and Node.js, I seamlessly develops both the front end and back end of web projects. My diverse portfolio, including e-commerce platforms and social media applications, showcases his creativity and technical prowess. I am also a collaborative team player, passionate about sharing knowledge and learning from others, making a promising talent in the field of web development.
+            </p>
+            <button id="readMoreBtn" class="btn">Read More</button>
+        </div>
+    </section>
+
+
+
+	<section class="services" id="services">
+		<h2 class="heading"> <span>Skills</span></h2>
+
+		<div class="services-container">
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Problem Solving</h3>
+				
+			</div>
+
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>React-js</h3>
+				
+			</div>
+
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Mongodb</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Node-js</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Express-js</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>HTML</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>CSS</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Javascript</h3>
+				
+			</div>
+
+			<div class="services-box">
+				<i class="fa-solid fa-code"></i>
+				<h3>Bootstrap</h3>
+				
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<section class="portfolio" id="portfolio">
+		
+		<h2 class="heading">Latest<span>Project</span></h2>
+		<div class="portfolio-container">
+			<div class="portfolio-box">
+				<img src="p1.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Foodyfox</h4>
+					<p>It is a food-delivery react-app. 
+					</p>
+					<a href="https://foody-fox-3n33.onrender.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+			
+
+
+			<div class="portfolio-box">
+				<img src="p2.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Enfocers</h4>
+					<p>Enfocers Is A Disaster Management Website That Merges All Rescue Departments Into One Platform. 
+					</p>
+					<a href="https://enfocers.onrender.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+
+
+
+			<div class="portfolio-box">
+				<img src="p3.png" alt="">
+				<div class="portfolio-layer">
+					<h4>TiffinEat</h4>
+					<p>It is a home-made tiffin delivery website
+					</p>
+					<a href="https://tiffineat.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+
+
+			<div class="portfolio-box">
+				<img src="p4.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Flower-clone website</h4>
+					<p>It is a frontend clone website
+					</p>
+					<a href="https://cloneprojectflowers.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+
+			<!--<div class="portfolio-box">
+				<img src="arc1.jpg" alt="">
+				<div class="portfolio-layer">
+					<h4>Web Design</h4>
+					<p>uild a Complete Responsive Personal Portfolio Website 
+					</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="arc1.jpg" alt="">
+				<div class="portfolio-layer">
+					<h4>Web Design</h4>
+					<p>uild a Complete Responsive Personal Portfolio Website usin
+					</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+		-->
+
+
+		</div>
+	</section>
+
+
+	<section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+		<form action="/submit-form" id="submit-form" method="POST">
+			<div class="input-box">
+				<input type="text" placeholder="Full Name" name="fullName" required>
+				<input type="email" placeholder="Email Address" name="email" required>
+			</div>
+			<div class="input-box">
+				<input type="number" placeholder="Mobile Number" name="mobileNumber" required>
+				<input type="text" placeholder="Email subject" name="subject" required>
+			</div>
+			<textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+			<input type="submit" value="Send Message" class="btn">
+		</form>
+		
+    </section>
+
+
+	<footer class="footer" >
+		<div class="footer-text">
+			<p>Copyright ; 2024 by Arnab Roy chowdhury | All Rights Reserved.</p>
+		</div>
+		<div class="footer-icontop">
+			<a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+		</div>
+		
+	</footer>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const form = document.getElementById('submit-form');
+	
+		form.addEventListener('submit', (event) => {
+			event.preventDefault(); // Prevents the default form submission
+	
+			// Form submission logic here
+			// You might want to use AJAX or Fetch API to send form data to the server
+			
+			// Display a success message
+			alert('Your message has been submitted successfully!');
+			
+			// Optionally, you can reset the form fields
+			form.reset();
+		});
+	});
+	</script>
+
+	<script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            // Here you can add any pre-download logic you need
+
+            // Create an 'a' element to trigger the download
+            const link = document.createElement('a');
+            link.href = 'arnabresume.pdf';
+            link.download = 'arnabresume.pdf';
+
+            // Append the 'a' element to the body
+            document.body.appendChild(link);
+
+            // Trigger the click event on the 'a' element
+            link.click();
+
+            // Remove the 'a' element after triggering the download
+            document.body.removeChild(link);
+        });
+    </script>
+  <script>
+	document.getElementById('readMoreBtn').addEventListener('click', function() {
+		const fullText = document.querySelector('.full-text');
+		const shortText = document.querySelector('.short-text');
+		const buttonText = document.getElementById('readMoreBtn');
+
+		if (fullText.style.display === 'none') {
+			fullText.style.display = 'block';
+			buttonText.textContent = 'Read Less';
+		} else {
+			fullText.style.display = 'none';
+			buttonText.textContent = 'Read More';
+		}
+	});
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const roles = ["Frontend Developer", "Backend Developer", "Full Stack Developer", "Web Designer"];
+		let currentIndex = 0;
+		const roleElement = document.querySelector('.role');
+
+		function rotateRoles() {
+			currentIndex = (currentIndex + 1) % roles.length;
+			roleElement.textContent = roles[currentIndex];
+		}
+
+		setInterval(rotateRoles, 2000); // Change role every 2 seconds
+	});
+</script>
+
+</body>
+
+
+</html>
