@@ -443,6 +443,9 @@ section{
 	.home-content h1{
 		font-size: 5rem;
 	}
+	.home-img{
+		padding-left: 40px;
+	}
 	.home-img img{
 		width: 70vw;
 		margin-top: 4rem;
